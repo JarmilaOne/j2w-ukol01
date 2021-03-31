@@ -1,0 +1,99 @@
+/* Border-box */
+html { box-sizing: border-box; }
+*, ::before, ::after { box-sizing: inherit; }
+
+/*Colors*/
+
+:root{ 
+    --c-one: #632A50;
+    --c-two: #003E1F;
+    --c-three: #2D4739;
+    --c-four: #FF92C2;
+    --c-five: #acad94;
+    --c-six: rgb(4, 15, 15);
+
+    --c-blog:rgba(241, 239, 248, 0.2);
+    --c-blog-text: rgba(241, 239, 248, 0.5);
+    --c-me: rgba(187, 177, 180, 0.6);
+
+    --f-primary: 'Playfair Display', serif;
+
+    --p-primary: 40px 0;
+    --p-secondary: 20px 0;
+    --p-paragraph: 10px 0;
+}
+
+/*Site*/
+body{
+    margin: 0;
+
+    font-family: var(--f-primary);
+    font-size: 16px;
+    font-weight: 300;
+
+    line-height: 1.5;
+   
+    color: var(--c-six);
+}
+
+.background{
+    background-attachment: fixed;
+    background-size: cover;   
+}
+
+.heading-two{
+    margin: 0;
+    padding: var(--p-secondary);
+
+    font-weight: 400;
+}
+
+.paragraph{
+    margin: 0;
+    padding: var(--p-paragraph);
+}
+
+/*Menu*/
+.menu{
+    display: flex;
+}
+
+.menu__a{
+    text-decoration: none;
+    display: inline-block;
+
+    color: var(--c-six);
+}
+
+.menu__a-button{
+    padding: 30px 20px;
+    
+    font-size: 50px;  
+}
+
+/*Me*/
+.menu__me:hover{
+    background-color: var(--c-me);
+}
+
+.me__background{
+    //background-image: url("/Users/milam/IdeaProjects/j2w-ukol01/src/resources/images/image__background-me.jpg");
+}
+
+.me__heading{
+    margin: 0;
+    padding: var(--p-primary);
+
+    font-size: 45px;
+    font-weight: 300;
+}
+
+.me__text{
+    padding: 20px;
+    margin-bottom: 30px;
+
+    color:var(--c-six);
+
+    display: block;
+    background-color: var(--c-me);
+}
