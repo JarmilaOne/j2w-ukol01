@@ -77,7 +77,7 @@ body{
 }
 
 .me__background{
-    //background-image: url("/Users/milam/IdeaProjects/j2w-ukol01/src/resources/images/image__background-me.jpg");
+    background-image: url("../images/image__background-me.jpg");
 }
 
 .me__heading{
